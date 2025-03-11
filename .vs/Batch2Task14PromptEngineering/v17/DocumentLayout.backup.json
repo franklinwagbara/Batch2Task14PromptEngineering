@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch2\\Task14\\Batch2Task14PromptEngineering\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD7ED72-6A15-4F1F-8A35-6B63A95C01E0}|Batch2Task14PromptEngineering\\Batch2Task14PromptEngineering.csproj|c:\\users\\franklin wagbara\\documents\\turing\\production\\batch2\\task14\\batch2task14promptengineering\\batch2task14promptengineering\\inmemorytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD7ED72-6A15-4F1F-8A35-6B63A95C01E0}|Batch2Task14PromptEngineering\\Batch2Task14PromptEngineering.csproj|solutionrelative:batch2task14promptengineering\\inmemorytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD7ED72-6A15-4F1F-8A35-6B63A95C01E0}|Batch2Task14PromptEngineering\\Batch2Task14PromptEngineering.csproj|c:\\users\\franklin wagbara\\documents\\turing\\production\\batch2\\task14\\batch2task14promptengineering\\batch2task14promptengineering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD7ED72-6A15-4F1F-8A35-6B63A95C01E0}|Batch2Task14PromptEngineering\\Batch2Task14PromptEngineering.csproj|solutionrelative:batch2task14promptengineering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2EE6DF6-71E2-423C-903A-0E57AB87C83A}|AppTests\\AppTests.csproj|c:\\users\\franklin wagbara\\documents\\turing\\production\\batch2\\task14\\batch2task14promptengineering\\apptests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EE6DF6-71E2-423C-903A-0E57AB87C83A}|AppTests\\AppTests.csproj|solutionrelative:apptests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch2\\Task14\\Batch2Task14PromptEngineering\\Batch2Task14PromptEngineering\\Program.cs",
+              "RelativeDocumentMoniker": "Batch2Task14PromptEngineering\\Program.cs",
+              "ToolTip": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch2\\Task14\\Batch2Task14PromptEngineering\\Batch2Task14PromptEngineering\\Program.cs",
+              "RelativeToolTip": "Batch2Task14PromptEngineering\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T15:52:40.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InMemoryTable.cs",
+              "DocumentMoniker": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch2\\Task14\\Batch2Task14PromptEngineering\\Batch2Task14PromptEngineering\\InMemoryTable.cs",
+              "RelativeDocumentMoniker": "Batch2Task14PromptEngineering\\InMemoryTable.cs",
+              "ToolTip": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch2\\Task14\\Batch2Task14PromptEngineering\\Batch2Task14PromptEngineering\\InMemoryTable.cs",
+              "RelativeToolTip": "Batch2Task14PromptEngineering\\InMemoryTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T15:49:48.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch2\\Task14\\Batch2Task14PromptEngineering\\AppTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "AppTests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Franklin Wagbara\\Documents\\Turing\\Production\\batch2\\Task14\\Batch2Task14PromptEngineering\\AppTests\\UnitTest1.cs",
+              "RelativeToolTip": "AppTests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T15:49:13.174Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

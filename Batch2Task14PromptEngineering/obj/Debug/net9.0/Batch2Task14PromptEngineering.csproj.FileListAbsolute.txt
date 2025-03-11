@@ -1,0 +1,14 @@
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task14\Batch2Task14PromptEngineering\Batch2Task14PromptEngineering\bin\Debug\net9.0\Batch2Task14PromptEngineering.exe
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task14\Batch2Task14PromptEngineering\Batch2Task14PromptEngineering\bin\Debug\net9.0\Batch2Task14PromptEngineering.deps.json
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task14\Batch2Task14PromptEngineering\Batch2Task14PromptEngineering\bin\Debug\net9.0\Batch2Task14PromptEngineering.runtimeconfig.json
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task14\Batch2Task14PromptEngineering\Batch2Task14PromptEngineering\bin\Debug\net9.0\Batch2Task14PromptEngineering.dll
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task14\Batch2Task14PromptEngineering\Batch2Task14PromptEngineering\bin\Debug\net9.0\Batch2Task14PromptEngineering.pdb
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task14\Batch2Task14PromptEngineering\Batch2Task14PromptEngineering\obj\Debug\net9.0\Batch2Task14PromptEngineering.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task14\Batch2Task14PromptEngineering\Batch2Task14PromptEngineering\obj\Debug\net9.0\Batch2Task14PromptEngineering.AssemblyInfoInputs.cache
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task14\Batch2Task14PromptEngineering\Batch2Task14PromptEngineering\obj\Debug\net9.0\Batch2Task14PromptEngineering.AssemblyInfo.cs
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task14\Batch2Task14PromptEngineering\Batch2Task14PromptEngineering\obj\Debug\net9.0\Batch2Task14PromptEngineering.csproj.CoreCompileInputs.cache
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task14\Batch2Task14PromptEngineering\Batch2Task14PromptEngineering\obj\Debug\net9.0\Batch2Task14PromptEngineering.dll
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task14\Batch2Task14PromptEngineering\Batch2Task14PromptEngineering\obj\Debug\net9.0\refint\Batch2Task14PromptEngineering.dll
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task14\Batch2Task14PromptEngineering\Batch2Task14PromptEngineering\obj\Debug\net9.0\Batch2Task14PromptEngineering.pdb
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task14\Batch2Task14PromptEngineering\Batch2Task14PromptEngineering\obj\Debug\net9.0\Batch2Task14PromptEngineering.genruntimeconfig.cache
+C:\Users\Franklin Wagbara\Documents\Turing\Production\batch2\Task14\Batch2Task14PromptEngineering\Batch2Task14PromptEngineering\obj\Debug\net9.0\ref\Batch2Task14PromptEngineering.dll
