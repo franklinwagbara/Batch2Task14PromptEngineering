@@ -4,19 +4,6 @@ using System.Linq;
 
 namespace InMemoryTable
 {
-    [Serializable]
-    public abstract class MasterTable_Base
-    {
-        public abstract class MasterData_Base
-        {
-        }
-
-        public abstract void Append(MasterTable_Base data);
-
-        public abstract MasterData_Base Find(int id);
-    }
-
-    [Serializable]
     public class ItemMasterTable : MasterTable_Base
     {
         [Serializable]
@@ -41,13 +28,23 @@ namespace InMemoryTable
         /// <exception cref="ArgumentException">Thrown if the data type is invalid.</exception>
         public override void Append(MasterTable_Base data)
         {
-            if (data is ItemMasterTable other)
+            if (data == null)
             {
-                _items.AddRange(other._items);
+                throw new ArgumentNullException(nameof(data), "Input data cannot be null.");
             }
-            else
+
+            if (!(data is ItemMasterTable itemTable))
             {
-                throw new ArgumentException("Invalid data type. Expected ItemMasterTable.", nameof(data));
+                throw new ArgumentException("Data must be of type ItemMasterTable.", nameof(data));
+            }
+
+            foreach (var item in itemTable._items)
+            {
+                if (_items.Any(existingItem => existingItem.Id == item.Id))
+                {
+                    throw new ArgumentException($"An item with ID {item.Id} already exists.", nameof(data));
+                }
+                _items.Add(item);
             }
         }
 
@@ -61,40 +58,30 @@ namespace InMemoryTable
             return _items.FirstOrDefault(item => item.Id == id);
         }
 
-        /// <summary>
-        /// Adds a new ItemData object to the internal list of items.
-        /// </summary>
-        /// <param name="item">The ItemData object to add.</param>
-        public void AddItem(ItemData item)
+        public void Add(ItemData itemData)
         {
-            if (item == null)
+            if (itemData == null)
             {
-                throw new ArgumentNullException(nameof(item), "Item cannot be null.");
+                throw new ArgumentNullException(nameof(itemData), "Item data cannot be null.");
             }
+            if (_items.Any(existingItem => existingItem.Id == itemData.Id))
+            {
+                throw new ArgumentException($"An item with ID {itemData.Id} already exists.", nameof(itemData));
+            }
+            _items.Add(itemData);
+        }
+    }
 
-            if (_items.Any(existingItem => existingItem.Id == item.Id))
-            {
-                throw new ArgumentException($"An item with ID {item.Id} already exists.", nameof(item));
-            }
-            _items.Add(item);
+    [Serializable]
+    public abstract class MasterTable_Base
+    {
+        [Serializable]
+        public abstract class MasterData_Base
+        {
         }
 
-        public void AddItems(IEnumerable<ItemData> items)
-        {
-            if (items == null)
-            {
-                throw new ArgumentNullException(nameof(items), "Items collection cannot be null.");
-            }
+        public abstract void Append(MasterTable_Base data);
 
-            foreach (var item in items)
-            {
-                AddItem(item); // Reuse AddItem to ensure individual item validation.
-            }
-        }
-
-        public void Clear()
-        {
-            _items.Clear();
-        }
+        public abstract MasterData_Base Find(int id);
     }
 }
